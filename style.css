@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #009578;
+}
+
+.bg {
+  background-color: rgb(222, 239, 255);
+  width: 60%;
+  height: 60%;
+  margin: 150px auto 0;
+  border-radius: 5px;
+  padding: 30px;
+  /* border: 2px;
+  border-color: black;
+  border-style: dashed; */
+  box-shadow: 0px 5px 11px -3px rgba(0, 0, 0, 0.75);
+}
+
+.bg h1 {
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+#question {
+  padding-bottom: 15px;
+  margin: 5px;
+}
+
+.button {
+  background-color: antiquewhite;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 25px 25px;
+  margin: 7px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover:not([disabled]) {
+  background-color: #303030;
+  color: aliceblue;
+}
+
+.button:disabled {
+  cursor: no-drop;
+}
+
+#nextButton {
+  margin: 10px;
+  padding: 5px 20px;
+  font-weight: 500;
+  border: 60;
+  cursor: pointer;
+  display: none;
+  background-color: #009578;
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+.correct {
+  background-color: #8eff8e;
+}
+
+.wrong {
+  background-color: #fb6d6d;
+}
